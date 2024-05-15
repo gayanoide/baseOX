@@ -54,7 +54,7 @@ lib:registerContext({
         progress = '25',      
         onSelect = function()
             --print("Pressed the button!")
-            SetNewWaypoint(vector3(411.5051, -978.7050, 29.4230))
+            SetNewWaypoint( 411.50, -978.70, 29.42)
         end,
       },
       {
@@ -64,7 +64,7 @@ lib:registerContext({
         progress = '50',      
         onSelect = function()
             --print("Pressed the button!")
-            SetNewWaypoint(vector3(297.8938, -583.9264, 43.2608))
+            SetNewWaypoint( 297.89, -583.92, 43.26)
         end,
       },
       {
@@ -74,7 +74,7 @@ lib:registerContext({
         progress = '75',      
         onSelect = function()
             --print("Pressed the button!")
-            SetNewWaypoint(vector3(-660.8474, -75.8661, 38.5911))
+            SetNewWaypoint( -660.84, -75.86, 38.59)
         end,
       },
       {
@@ -84,7 +84,7 @@ lib:registerContext({
         progress = '100',      
         onSelect = function()
             --print("Pressed the button!")
-            SetNewWaypoint(vector3(-440.6825, 6019.1982, 31.4901))
+            SetNewWaypoint( -440.68, 6019.19, 31.49)
         end,
       },
     }
@@ -164,6 +164,12 @@ lib:registerContext({
             ExecuteCommand("hudsettings")
         end,
       },
+      {
+        title = 'Config Notification',
+        onSelect = function()
+            ExecuteCommand("notifysettings")
+        end,
+      },
       --{
       --  title = 'Mode Editor',
       --  onSelect = function()
@@ -172,6 +178,11 @@ lib:registerContext({
       --}
     }
 })
+
+
+
+
+
 
 
 

@@ -1,13 +1,16 @@
+
 fx_version 'adamant'
 
 game 'gta5'
-lua54 'yes'
-description 'Official ESX-Legacy resource for handling the Player`s Skin'
-version '1.10.5'
+
+description 'Skin Changer'
+
+version '1.0.3'
 
 client_scripts {
-	'@es_extended/locale.lua',
-	'locales/*.lua',
+	'locale.lua',
+	'locales/fr.lua',
 	'config.lua',
 	'client/main.lua'
 }
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="2000" />
+  <proxies>
+    <Item>kachal_easttaxi_milo_</Item>
+    <Item>kachal_easttaxi_parking_milo_</Item>
+  </proxies>
+</SInteriorOrderData>
