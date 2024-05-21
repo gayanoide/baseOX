@@ -58,3 +58,15 @@ function safdboss()
         --menu.close()
     end, {wash = false})
 end
+
+
+Citizen.CreateThread(function()
+    local blip = AddBlipForCoord(Config.pos.menu.gps.x, Config.pos.menu.gps.y, Config.pos.menu.gps.z)
+    SetBlipSprite(blip, 436)
+    SetBlipColour(blip, 1)
+    SetBlipScale(blip, 0.7)
+    SetBlipAsShortRange(blip, true)
+    BeginTextCommandSetBlipName('STRING')
+    AddTextComponentString("~Y~S.A.F.D~s~")
+    EndTextCommandSetBlipName(blip)
+end)

@@ -10,26 +10,26 @@ INSERT INTO `addon_inventory` (`name`, `label`, `shared`) VALUES
 INSERT INTO `jobs` (`name`, `label`) VALUES
 ('safd', 'safd');
 
-INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES
-('safd', 0, 'recrue', 'Recrue', 0, '', ''),
-('safd', 1, 'volontaire', 'Volontaire', 0, '', ''),
-('safd', 2, '1class', '1er Classe', 0, '', ''),
-('safd', 3, 'caporal1', 'Caporal I', 0, '', ''),
-('safd', 4, 'caporal2', 'Caporal II', 0, '', ''),
-('safd', 5, 'capichef', 'Caporal Chef', 0, '', ''),
-('safd', 6, 'sergent1', 'Sergent I', 0, '', ''),
-('safd', 7, 'sergent2', 'Sergent II', 0, '', ''),
-('safd', 8, 'adjudant1', 'Adjudant I', 0, '', ''),
-('safd', 9, 'adjudant2', 'Adjudant II', 0, '', ''),
-('safd', 10, 'adjudantmajor', 'Adjudant Major', 0, '', ''),
-('safd', 11, 'expert', 'Expert', 0, '', ''),
-('safd', 12, 'aspirant', 'Aspirant', 0, '', ''),
-('safd', 13, 'lieutenant', 'Lieutenant', 0, '', ''),
-('safd', 14, 'commandant', 'Commandant', 0, '', ''),
-('safd', 15, 'boss', 'Battalion - Chief', 0, '', ''),
-('safd', 16, 'boss', 'Division - Chief', 0, '', ''),
-('safd', 17, 'boss', 'Deputy - Chief', 0, '', ''),
-('safd', 18, 'boss', 'Fire - Chief', 0, '', ''),;
+INSERT INTO `job_grades` (`id`,`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES
+(NULL, 'safd', 0, 'recrue', 'Recrue', 0, '', ''),
+(NULL, 'safd', 1, 'volontaire', 'Volontaire', 0, '', ''),
+(NULL, 'safd', 2, '1class', '1er Classe', 0, '', ''),
+(NULL, 'safd', 3, 'caporal1', 'Caporal I', 0, '', ''),
+(NULL, 'safd', 4, 'caporal2', 'Caporal II', 0, '', ''),
+(NULL, 'safd', 5, 'capichef', 'Caporal Chef', 0, '', ''),
+(NULL, 'safd', 6, 'sergent1', 'Sergent I', 0, '', ''),
+(NULL, 'safd', 7, 'sergent2', 'Sergent II', 0, '', ''),
+(NULL, 'safd', 8, 'adjudant1', 'Adjudant I', 0, '', ''),
+(NULL, 'safd', 9, 'adjudant2', 'Adjudant II', 0, '', ''),
+(NULL, 'safd', 10, 'adjudantmajor', 'Adjudant Major', 0, '', ''),
+(NULL, 'safd', 11, 'expert', 'Expert', 0, '', ''),
+(NULL, 'safd', 12, 'aspirant', 'Aspirant', 0, '', ''),
+(NULL, 'safd', 13, 'lieutenant', 'Lieutenant', 0, '', ''),
+(NULL, 'safd', 14, 'commandant', 'Commandant', 0, '', ''),
+(NULL, 'safd', 15, 'boss', 'Battalion - Chief', 0, '', ''),
+(NULL, 'safd', 16, 'boss', 'Division - Chief', 0, '', ''),
+(NULL, 'safd', 17, 'boss', 'Deputy - Chief', 0, '', ''),
+(NULL, 'safd', 18, 'boss', 'Fire - Chief', 0, '', ''),;
 
 ALTER TABLE `users` ADD COLUMN `currentHealth` int(11) NOT NULL DEFAULT 200;
 
